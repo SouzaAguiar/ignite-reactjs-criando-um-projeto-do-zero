@@ -1,1 +1,24 @@
-// TODO
+.banner {
+  max-width: 100%;
+  height: 25rem;
+}
+.post {
+  h1 {
+    font-size: 3rem;
+    line-height: 3.635rem;
+    margin-top: 5rem;
+    color: var(--Heading);
+  }
+  h2 {
+    font-size: 2.25rem;
+    margin: 3rem 0;
+  }
+  p {
+    font-size: 1.125rem;
+    line-height: 1.575rem;
+    color: var(--Body);
+    & + p {
+      margin-top: 1.5rem;
+    }
+  }
+}

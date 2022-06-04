@@ -1,0 +1,25 @@
+.container {
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  li {
+    & + li {
+      margin-left: 1.5rem;
+    }
+  }
+  time {
+    display: flex;
+    font-size: 0.875rem;
+    color: var(--Info);
+    align-items: center;
+    line-height: 1.0625rem;
+    margin-top: 0.8rem;
+
+    svg {
+      margin-right: 0.3rem;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
